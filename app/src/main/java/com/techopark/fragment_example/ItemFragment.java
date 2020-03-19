@@ -51,7 +51,6 @@ public class ItemFragment extends BaseFragment {
         layoutParams.topMargin = 50;
         textView.setLayoutParams(layoutParams);
         textView.setTextAlignment(View.TEXT_ALIGNMENT_CENTER);
-
         frameLayout.addView(textView);
 
         Button back = new Button(context);
